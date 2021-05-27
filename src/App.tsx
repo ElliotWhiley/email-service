@@ -121,14 +121,9 @@ function App() {
 			</form>
 			<br></br>
 			<button onClick={getEmailDeliveryReports}>Email stats</button>
-			<div>Total emails sent: {emailsSent === 0 ? "?" : emailsSent}</div>
-			<div>
-				Total emails delivered:{" "}
-				{emailsDelivered === 0 ? "?" : emailsDelivered}
-			</div>
-			<div>
-				Total emails opened: {emailsOpened === 0 ? "?" : emailsOpened}
-			</div>
+			<div>Total emails sent: {emailsSent}</div>
+			<div>Total emails delivered: {emailsDelivered}</div>
+			<div>Total emails opened: {emailsOpened}</div>
 			<div>
 				Open rate:{" "}
 				<b>
